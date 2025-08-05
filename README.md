@@ -50,7 +50,7 @@ To better understand the data, several visualizations were performed:
 
 This boxplot shows the distribution of `trip_duration` with many visible outliers. Most trips fall under 2000 seconds, while a long tail of outliers exists above that.
 
-![Trip Duration Boxplot](images/eda_trip_duration_boxplot..png)
+![Trip Duration Boxplot](images/eda_trip_duration_boxplot.png)
 
 ---
 
@@ -58,7 +58,7 @@ This boxplot shows the distribution of `trip_duration` with many visible outlier
 
 This scatter plot indicates a strong positive correlation between `distance_km` and `trip_duration`. Most trips are short-distance and take under 2000 seconds.
 
-![Trip Duration vs Distance](images/eda_trip_duration_vs_distance_scatter..png)
+![Trip Duration vs Distance](images/eda_trip_duration_vs_distance_scatter.png)
 
 ---
 
@@ -66,7 +66,7 @@ This scatter plot indicates a strong positive correlation between `distance_km` 
 
 The original trip duration was right-skewed. After applying a log transformation, the distribution became more Gaussian—ideal for regression modeling.
 
-![Log Trip Duration Distribution](images/log_trip_duration_hist..png)
+![Log Trip Duration Distribution](images/log_trip_duration_hist.png)
 
 ---
 
@@ -74,7 +74,7 @@ The original trip duration was right-skewed. After applying a log transformation
 
 This boxplot shows how trip duration varies with the number of passengers. There is no significant variation, implying passenger count has limited predictive power.
 
-![Trip Duration by Passenger Count](images/eda_boxplot_passenger_count..png)
+![Trip Duration by Passenger Count](images/eda_boxplot_passenger_count.png)
 
 ---
 
@@ -82,7 +82,7 @@ This boxplot shows how trip duration varies with the number of passengers. There
 
 This heatmap shows the correlation between different numerical features. The strongest positive correlation is between `distance_km` and `trip_duration` (~0.77).
 
-![Correlation Heatmap](images/eda_correlation_heatmap..png)
+![Correlation Heatmap](images/eda_correlation_heatmap.png)
 
 ---
 
