@@ -42,6 +42,53 @@ Build a full ML pipeline to:
   - Correlation heatmap
 - Added expert observations after each plot
 
+## 📊 Exploratory Data Analysis (Visuals)
+
+To better understand the data, several visualizations were performed:
+
+### 1. 📦 Trip Duration Boxplot
+
+This boxplot shows the distribution of `trip_duration` with many visible outliers. Most trips fall under 2000 seconds, while a long tail of outliers exists above that.
+
+![Trip Duration Boxplot](images/eda_trip_duration_boxplot.png.png)
+
+---
+
+### 2. 📍 Trip Duration vs. Distance (Scatter Plot)
+
+This scatter plot indicates a strong positive correlation between `distance_km` and `trip_duration`. Most trips are short-distance and take under 2000 seconds.
+
+![Trip Duration vs Distance](images/eda_trip_duration_vs_distance_scatter.png.png)
+
+---
+
+### 3. 🧮 Histogram of Log-Transformed Trip Duration
+
+The original trip duration was right-skewed. After applying a log transformation, the distribution became more Gaussian—ideal for regression modeling.
+
+![Log Trip Duration Distribution](images/log_trip_duration_hist.png.png)
+
+---
+
+### 4. 👥 Trip Duration by Passenger Count (Boxplot)
+
+This boxplot shows how trip duration varies with the number of passengers. There is no significant variation, implying passenger count has limited predictive power.
+
+![Trip Duration by Passenger Count](images/eda_boxplot_passenger_count.png.png)
+
+---
+
+### 5. 🔗 Correlation Heatmap
+
+This heatmap shows the correlation between different numerical features. The strongest positive correlation is between `distance_km` and `trip_duration` (~0.77).
+
+![Correlation Heatmap](images/eda_correlation_heatmap.png.png)
+
+---
+
+📘 *For the full exploratory data analysis with more plots and detailed explanations, please refer to the full [Jupyter Notebook](trip_duration_prediction_reviewed_final.ipynb).*
+
+
 ### 3. 🧬 Feature Engineering
 - Extracted time-based features: `pickup_hour`, `pickup_weekday`, `pickup_month`
 - Calculated trip `distance_km` using Haversine formula
