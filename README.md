@@ -110,12 +110,12 @@ http://localhost:8501
 ### 🔹 App Interface
 Shows the input form and overall layout of the web app.
 
-![Streamlit App](images/streamlit_app.png)
+![Streamlit App](images/streamlit_app.png.jpg)
 
 ### 🔹 Output Example
 Displays predicted duration vs. NYC average and user input breakdown.
 
-![Streamlit Output](images/streamlit_output_summary.jpg)
+![Streamlit Output](images/streamlit_output_summary.jpg.jpg)
 ---
 
 ## 📁 Project Files
