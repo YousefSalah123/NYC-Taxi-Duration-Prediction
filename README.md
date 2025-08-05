@@ -58,7 +58,7 @@ This boxplot shows the distribution of `trip_duration` with many visible outlier
 
 This scatter plot indicates a strong positive correlation between `distance_km` and `trip_duration`. Most trips are short-distance and take under 2000 seconds.
 
-![Trip Duration vs Distance](images/eda_trip_duration_vs_distance_scatter.png)
+![Trip Duration vs Distance](images/eda_trip_duration_vs_distance.png)
 
 ---
 
