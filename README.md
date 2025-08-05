@@ -17,7 +17,7 @@ Build a full ML pipeline to:
 
 ## 📊 Dataset
 
-- **Source**: NYC Taxi Trip data (`train.csv`)
+- **Source**: NYC Taxi Trip data (`https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data`)
 - **Content**:  
   Includes:
   - Pickup and dropoff timestamps
@@ -64,7 +64,7 @@ Build a full ML pipeline to:
 - Feature list saved as: `features_used.pkl`
 
 ### 7. 🚀 Deployment with Streamlit
-- Built an interactive web app (`app.py`)
+- Built an interactive web app (`streamlit_app.py`)
 - Accepts user inputs for trip parameters
 - Returns predicted trip duration (in minutes/seconds)
 - Includes comparison plot between actual and predicted
@@ -95,7 +95,7 @@ pip install -r requirements.txt
 2. ▶️ Run the Streamlit app:
 
 ```bash
-streamlit run app.py
+streamlit run Streamlit_app.py
 ```
 
 3. 🌐 Open your browser and access:
@@ -105,21 +105,28 @@ http://localhost:8501
 
 ---
 
-## 🖼️ App UI (Screenshot Placeholder)
+## 🖥️ Streamlit App Preview
 
-> *(Insert a screenshot of your Streamlit app UI here)*
+### 🔹 App Interface
+Shows the input form and overall layout of the web app.
 
+![Streamlit App](images/streamlit_app.png)
+
+### 🔹 Output Example
+Displays predicted duration vs. NYC average and user input breakdown.
+
+![Streamlit Output](images/streamlit_output_summary.jpg)
 ---
 
 ## 📁 Project Files
 
-| File Name             | Description                                  |
+| File Name                 | Description                                             |
 |------------------------|----------------------------------------------|
-| `main_notebook.ipynb`  | Full pipeline: cleaning, EDA, modeling       |
-| `app.py`               | Streamlit app for real-time predictions      |
-| `model.pkl`            | Saved regression model                       |
-| `features_used.pkl`    | List of selected features used in the model  |
-| `requirements.txt`     | Python dependencies                          |
+| `trip_duration_prediction_reviewed_final.ipynb`  | Full pipeline: cleaning, EDA,modeling  |
+| `Streamlit_app.py`   | Streamlit app for real-time predictions   |
+| `model.pkl`               | Saved regression model                            |
+| `features_used.pkl` | List of selected features used in the model  |
+| `requirements.txt`   | Python dependencies                                      |
 
 ---
 
@@ -135,15 +142,16 @@ http://localhost:8501
 
 ## 🙋‍♂️ Author
 
-**Khaled H.**  
-Data Science & Machine Learning Enthusiast  
-📫 [LinkedIn](https://www.linkedin.com) | [GitHub](https://github.com)
+**Yousef Salah Nage**  
+AI & Machine Learning Enthusiast  
+📫 [LinkedIn](www.linkedin.com/in/yousef-salah-nage-a3583636b) | [GitHub](https://github.com/YousefSalah123)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](LICENSE).
+
 
 ---
 
