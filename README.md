@@ -140,11 +140,14 @@ Displays predicted duration vs. NYC average and user input breakdown.
 
 ---
 
-## 🙋‍♂️ Author
-
+## 🙋‍♂️ Author 
 **Yousef Salah Nage**  
 AI & Machine Learning Enthusiast  
-📫 [LinkedIn](www.linkedin.com/in/yousef-salah-nage-a3583636b) | [GitHub](https://github.com/YousefSalah123)
+
+## 🔗 Connect with Me
+- [LinkedIn](https://www.linkedin.com/in/yousef-salah-nage-a3583636b)
+- [GitHub](https://github.com/YousefSalah123)
+
 
 ---
 
