@@ -15,6 +15,10 @@ Build a full ML pipeline to:
 
 ---
 
+🖥️ Try the live Streamlit App 👉 [Click here to run the app](https://nyc-taxi-duration-prediction-93j4vbvdjkwp6ds58yv92g.streamlit.app/)
+
+---
+
 ## 📊 Dataset
 
 - **Source**: NYC Taxi Trip data (`https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data`)
@@ -115,7 +119,6 @@ This heatmap shows the correlation between different numerical features. The str
 - Accepts user inputs for trip parameters
 - Returns predicted trip duration (in minutes/seconds)
 - Includes comparison plot between actual and predicted
-🖥️ Try the live Streamlit App 👉 [Click here to run the app](https://nyc-taxi-duration-prediction-93j4vbvdjkwp6ds58yv92g.streamlit.app/)
 
 ---
 
