@@ -1,7 +1,15 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-joblib
-streamlit
+# Data Processing & Feature Engineering
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning Pipeline & Serialization
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+altair>=5.0.0
+
+# Web Application Framework
+streamlit>=1.30.0
